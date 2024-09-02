@@ -6,8 +6,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         height: 100vh;
-        position: relative;
     }
 
     .fit-picture {
@@ -16,18 +16,18 @@
     }
 
     .overlay-text {
-        position: absolute;
-        color: white;
+        color: black;
         font-size: 3em;
         font-weight: bold;
         text-align: center;
+        margin-bottom: 20px;
     }
   </style>
 </head>
 
 <body>
   <div class="image-container">
-      <img class="fit-picture" src="https://openclipart.org/image/800px/208882" alt="Spork" />
       <div class="overlay-text">Spork</div>
+      <img class="fit-picture" src="https://openclipart.org/image/800px/208882" alt="Spork" />
   </div>
 </body>
